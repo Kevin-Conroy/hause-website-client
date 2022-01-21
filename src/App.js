@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import NavBar from "./NavBar";
+import NewNavBar from "./NewNavBar";
+import Header from "./Header";
+import TourDates from "./TourDates";
+import Store from "./Store";
+import Bio from "./Bio";
+import Releases from "./Releases";
+import Follow from "./Follow";
+import Archive from "./Archive";
+import News from "./News";
+import SocialFollow from "./SocialFollow"
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App"> 
+      <div>
+        <Header />
+        <NewNavBar/>
+        <Routes>
+          <Route exact path="/" element={<News />} />
+          <Route exact path="/tourdates" element={<TourDates />} />
+          <Route exact path="/store" element={<Store />} />
+          <Route exact path="/bio" element={<Bio />} />
+          <Route exact path="/releases" element={<Releases />} />
+          <Route exact path="/archive" element={<Archive />} />
+        </Routes>
+        <SocialFollow />
+      </div>
+    </main>
   );
 }
 
