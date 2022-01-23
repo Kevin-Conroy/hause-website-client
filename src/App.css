@@ -1,10 +1,18 @@
+
+
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: white;
   font-weight: 500;
+  background: url('/src/DH-BH-COVER.jpg');
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 }
 
 .box {
@@ -24,11 +32,13 @@
 }
 
 body {
+  background: url('/src/DH-BH-COVER.jpg');
+  background-color: #cccccc;
   background: #20421d;
-  animation: fadeInAnimation 1s ease;
+  animation: fadeInAnimation .8s ease;
   color: white;
   padding: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
 }
 

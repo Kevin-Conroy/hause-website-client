@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 function Header() {
     return (
         <div>
-            <h1 className="text-center">Dave Hause</h1>
+            <h1 className="text-center">DAVE HAUSE</h1>
         </div>
     )
 }

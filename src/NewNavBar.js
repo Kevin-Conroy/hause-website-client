@@ -16,10 +16,11 @@ function NewNavBar() {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav>
+            <Nav.Link href="news">News</Nav.Link> 
             <Nav.Link href="tourdates">Tour Dates</Nav.Link>
             <Nav.Link href="bio">Bio</Nav.Link>
             <Nav.Link href="store">Store</Nav.Link>
-            <Nav.Link href="listen">Listen</Nav.Link>
+            <Nav.Link href="releases">Listen</Nav.Link>
             <Nav.Link href="archive">Archive</Nav.Link>
           </Nav>
         </Navbar.Collapse>
