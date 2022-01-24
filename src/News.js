@@ -27,19 +27,3 @@ class News extends React.Component {
   }
 }
 export default News;
-
-/*
-        {this.state.news.map((newsitem) => {
-          return <NewsBox newsitem={newsitem} />;
-        })}
-
-        <ul className='PoemList'>
-        {POEMS.map(poem =>
-          <li key={poem.id}>
-            <Link to={`/poem/${poem.id}`}>
-              {poem.title}
-              </Link>
-          </li>
-        )}
-      </ul>
-        */

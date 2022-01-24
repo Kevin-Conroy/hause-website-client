@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, withRouter } from "react-router-dom";
+//import { useParams, withRouter } from "react-router-dom";
 
 class NewsBox extends React.Component {
   constructor(props) {
